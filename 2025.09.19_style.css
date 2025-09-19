@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background-image: url(https://webcms.tpilet.ee/static/taustapilt.jpg);
+}
+
+/* headaer section */
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+
+}
+
+/* .site_header .logo {} */
+/* shitf alt a */
+/* https://codingfantasy.com/ */ 
+
+/* headaer section */
+.site-header nav a{
+    color: #9b9b9b;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.site-header nav a.active{
+    color: #f45a1e;
+    border-bottom: 2px solid #f45a1e;
+}
+
+.header-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-right-span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 15px;
+}
+
+.langs_a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: #444;
+}
+
+.langs_a.active{
+    color: #f45a1e;
+    font-weight: bold;
+}
+
+/* 
+.nav = class
+#nav = id
+nav = tag näiteks a href 
+
+*/
+
+
+
+/* <!-- ************* TEINE OSA ************* --> */
+.hero{
+    position: relative;
+}
